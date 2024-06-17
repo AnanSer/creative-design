@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Monoton&display=swap");
+
+/* 
+=======
+global style
+=======
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: bellota, cursive;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: "Bellota text", cursive;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
