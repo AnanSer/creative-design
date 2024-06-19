@@ -85,4 +85,43 @@ section-1
   font-size: 2rem;
   font-weight: 900;
   color: #fff;
+  letter-spacing: 0.2rem;
+  width: 1.5rem;
+  word-wrap: break-word; /*to lie on the horizontal*/
+  transition: all 0.5s;
+}
+.navbar-link:hover {
+  width: 15rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 2.5s;
+}
+
+.section-1-heading {
+  font-family: "monoton", cursive;
+  font-size: 7rem;
+  background: #fff;
+  text-shadow: 0.3rem 0.3rem 0.3rem #888;
+  color: #fff;
+  position: absolute;
+  top: 18vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75rem;
+  text-align: center;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
+  opacity: 0.9;
+}
+
+.logo {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo i {
+  font-size: 15rem;
+  color: rgba(132, 185, 63, 0.8);
+  text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem #ddd;
 }
