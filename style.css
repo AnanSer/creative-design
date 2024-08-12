@@ -421,7 +421,8 @@ section-4
 .copyright {
   font-size: 4rem;
   letter-spacing: 0.2rem;
-  color: #444;
+  color: #333;
+  background-color: #fff;
 }
 
 .contact-form input,
