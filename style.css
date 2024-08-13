@@ -20,6 +20,7 @@ global style
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -383,7 +384,7 @@ section-4
   align-items: center;
   box-shadow: 0.3rem 0.3rem 0.4rem #ccc, -0.1rem -0.1rem 0.4rem #ccc;
   border-radius: 0.5rem;
-  perspective: 100rem; // to have 3d shape;
+  perspective: 100rem; /* to have 3d shape;*/
 }
 
 .form-img {
@@ -447,11 +448,30 @@ textarea {
 .contact-form input[type="button"] {
   cursor: pointer;
   color: #fff;
-  background-color: rgba(50, 231, 255, 0.8);
+  background-color: rgba(132, 185, 63, 0.8);
   font-weight: bolder;
   transition: background-color 0.6s;
 }
 
 .contact-form input[type="button"]:hover {
-  background-color: #32e7ff;
+  background-color: rgba(163, 226, 74, 0.8);
+}
+
+.scroll-up-button {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(132, 185, 63, 0.8);
+  color: #fff;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+.scroll-up-button:hover {
+  background-color: rgba(159, 214, 87, 0.8);
 }
