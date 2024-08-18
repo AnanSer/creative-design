@@ -475,3 +475,15 @@ textarea {
 .scroll-up-button:hover {
   background-color: rgba(159, 214, 87, 0.8);
 }
+
+/* 
+=======
+making responsive
+=======
+*/
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 40%;
+  }
+}
